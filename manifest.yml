@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: PhpGitrep
+  host: PhpGitrep
+  disk_quota: 1024M
+  services:
+  - dbgit
